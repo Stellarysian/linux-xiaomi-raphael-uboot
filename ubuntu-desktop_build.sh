@@ -188,7 +188,7 @@ mount -o loop xiaomi-k20pro-boot.img boot_tmp
 
 # 复制 boot 文件
 mkdir -p boot_tmp/dtbs/qcom
-cp xiaomi-raphael-debs_$1/sm8150-xiaomi-raphael.dtb boot_tmp/dtbs/qcom/
+cp xiaomi-raphael-debs_$2/sm8150-xiaomi-raphael.dtb boot_tmp/dtbs/qcom/
 cp rootdir/boot/config-* boot_tmp/
 cp rootdir/boot/initrd.img-* boot_tmp/initramfs
 cp rootdir/boot/vmlinuz-* boot_tmp/linux.efi
