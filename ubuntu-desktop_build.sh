@@ -9,7 +9,7 @@ then
 fi
 
 # 设置 Ubuntu 版本
-UBUNTU_VERSION="noble"
+UBUNTU_VERSION="plucky"
 
 # 创建根文件系统镜像
 truncate -s 6G rootfs.img
