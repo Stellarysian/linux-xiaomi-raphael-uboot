@@ -9,10 +9,10 @@ then
 fi
 
 # 设置 Ubuntu 版本
-UBUNTU_VERSION="noble"
+UBUNTU_VERSION="plucky"
 
 # 创建根文件系统镜像
-truncate -s 3G rootfs.img
+truncate -s 12G rootfs.img
 mkfs.ext4 rootfs.img
 mkdir rootdir
 mount -o loop rootfs.img rootdir
